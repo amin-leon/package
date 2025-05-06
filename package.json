@@ -1,0 +1,23 @@
+{
+  "name": "wheel-package",
+  "description": "A customizable prize wheel component for React applications",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-color": "^2.19.3",
+    "react-custom-roulette": "^1.4.1",
+    "react-dom": "^19.1.0"
+  }
+}
